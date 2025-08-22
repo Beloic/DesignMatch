@@ -1,9 +1,13 @@
-import { ArrowRight, Star, Users, Briefcase, Building, CheckCircle, Play } from 'lucide-react'
+'use client'
+
+import { ArrowRight, Star, Users, Briefcase, Building, CheckCircle, Play, User } from 'lucide-react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
+import { useAuth } from '@/hooks/useAuth'
 
 export default function HomePage() {
+  const { user } = useAuth()
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -36,6 +40,48 @@ export default function HomePage() {
               Connectez recruteurs et talents UX/UI Design en France et en Europe. 
               Trouvez votre prochain designer ou votre prochaine mission en quelques clics.
             </p>
+
+            {/* Message de bienvenue pour utilisateurs connectés */}
+            {user && (
+              <div className="mb-8 p-6 bg-white/80 backdrop-blur-sm rounded-2xl border border-primary/20 shadow-lg">
+                <div className="flex items-center justify-center space-x-3 mb-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                    <User className="h-6 w-6 text-primary" />
+                  </div>
+                  <div className="text-left">
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      Bienvenue, {user.full_name || user.email} !
+                    </h3>
+                    <p className="text-gray-600">
+                      Vous êtes connecté en tant que <strong>{user.job_title ? 'Recruteur' : 'Candidat'}</strong>
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-center space-x-4">
+                  <Button asChild variant="outline" className="bg-white hover:bg-gray-50">
+                    <Link href="/profil" className="flex items-center space-x-2">
+                      <User className="h-4 w-4" />
+                      <span>Mon Profil</span>
+                    </Link>
+                  </Button>
+                  {user.job_title ? (
+                    <Button asChild className="bg-primary hover:bg-primary/90">
+                      <Link href="/publier" className="flex items-center space-x-2">
+                        <Briefcase className="h-4 w-4" />
+                        <span>Publier une mission</span>
+                      </Link>
+                    </Button>
+                  ) : (
+                    <Button asChild className="bg-primary hover:bg-primary/90">
+                      <Link href="/missions" className="flex items-center space-x-2">
+                        <Briefcase className="h-4 w-4" />
+                        <span>Voir les missions</span>
+                      </Link>
+                    </Button>
+                  )}
+                </div>
+              </div>
+            )}
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
