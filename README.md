@@ -4,6 +4,8 @@
 
 DesignMatch est une plateforme moderne qui connecte recruteurs et talents UX/UI Design en France et en Europe. Trouvez votre prochain designer ou votre prochaine mission.
 
+<!-- Dernière mise à jour: $(date) - Build fonctionnel confirmé -->
+
 ## ✨ Fonctionnalités
 
 - 🔐 **Authentification complète** avec Supabase
@@ -72,7 +74,7 @@ Le projet utilise les tables suivantes :
 - **Inscription/Connexion** (`/auth/*`) - Authentification
 - **Talents** (`/talents`) - Découvrir les designers
 - **Missions** (`/missions`) - Voir les offres
-- **Profil** (`/profil/*`) - Gestion des profils
+- **Profil** (`/profil`) - Gestion des profils
 - **Favoris** (`/favoris`) - Profils sauvegardés
 - **Messages** (`/messages`) - Communication
 
