@@ -15,7 +15,7 @@ import { useFavorites } from '@/hooks/useFavorites'
 
 export default function ComposantsDemoPage() {
   const { addToast } = useToast()
-  const { favorites, addToFavorites, removeFromFavorites } = useFavorites()
+  const { favorites } = useFavorites()
   const [inputValue, setInputValue] = useState('')
 
   const showToast = (type: 'success' | 'error' | 'warning' | 'info') => {
@@ -27,20 +27,11 @@ export default function ComposantsDemoPage() {
   }
 
   const toggleFavorite = () => {
-    const talentId = 'demo-1'
-    if (favorites.talents.includes(talentId)) {
-      removeFromFavorites('talents', talentId)
-      addToast({
-        title: 'Retiré des favoris',
-        type: 'info'
-      })
-    } else {
-      addToFavorites('talents', talentId)
-      addToast({
-        title: 'Ajouté aux favoris',
-        type: 'success'
-      })
-    }
+    addToast({
+      title: 'Fonctionnalité des favoris',
+      description: 'Cette fonctionnalité sera implémentée plus tard',
+      type: 'info'
+    })
   }
 
   return (
@@ -252,9 +243,9 @@ export default function ComposantsDemoPage() {
               </Button>
               <Button 
                 onClick={() => {
-                  addToFavorites('missions', 'demo-mission')
                   addToast({
                     title: 'Mission ajoutée aux favoris',
+                    description: 'Cette fonctionnalité sera implémentée plus tard',
                     type: 'success'
                   })
                 }}

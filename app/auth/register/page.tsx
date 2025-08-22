@@ -51,7 +51,7 @@ export default function RegisterPage() {
     
     try {
       const fullName = `${formData.firstName} ${formData.lastName}`.trim()
-      const result = await signUp(formData.email, formData.password, fullName, formData.userType)
+      const result = await signUp(formData.email, formData.password, fullName, formData.userType as 'talent' | 'recruiter')
       
       if (result.success) {
         addToast({
