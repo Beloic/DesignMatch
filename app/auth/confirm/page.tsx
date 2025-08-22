@@ -27,6 +27,8 @@ export default function ConfirmEmailPage() {
         const access_token = searchParams.get('access_token') || hashParams.get('access_token')
         const refresh_token = searchParams.get('refresh_token') || hashParams.get('refresh_token')
 
+
+
         if (access_token && refresh_token) {
           // Si on a des tokens d'accès, c'est une confirmation réussie
           // On peut directement créer une session
@@ -153,6 +155,7 @@ export default function ConfirmEmailPage() {
           <CardContent>
             {getStatusContent()}
             
+
           </CardContent>
         </Card>
       </div>
