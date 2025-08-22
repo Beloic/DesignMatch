@@ -24,7 +24,28 @@ export default function ProfilPageComponent() {
     router.push('/')
   }
 
-  const menuItems = [
+  const isRecruiter = user?.job_title || user?.company
+  
+  const menuItems = isRecruiter ? [
+    {
+      id: 'profil',
+      label: 'Mon Profil',
+      icon: User,
+      description: 'Gérer vos informations personnelles'
+    },
+    {
+      id: 'entreprise',
+      label: 'Mon Entreprise',
+      icon: Building2,
+      description: 'Gérer les informations de votre entreprise'
+    },
+    {
+      id: 'nouvelle-offre',
+      label: 'Nouvelle Offre',
+      icon: Briefcase,
+      description: 'Publier une nouvelle mission'
+    }
+  ] : [
     {
       id: 'profil',
       label: 'Mon Profil',
@@ -172,6 +193,95 @@ export default function ProfilPageComponent() {
           </div>
         )
       
+      case 'entreprise':
+        return (
+          <div className="space-y-6">
+            <h2 className="text-2xl font-bold">Mon Entreprise</h2>
+            <Card>
+              <CardHeader>
+                <CardTitle>Informations de l'Entreprise</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-sm font-medium mb-2">Nom de l'entreprise</label>
+                    <input 
+                      type="text" 
+                      className="w-full p-3 border border-gray-300 rounded-lg"
+                      placeholder="Nom de votre entreprise"
+                      defaultValue={user?.company || ''}
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium mb-2">Secteur d'activité</label>
+                    <input 
+                      type="text" 
+                      className="w-full p-3 border border-gray-300 rounded-lg"
+                      placeholder="Tech, Finance, Design..."
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium mb-2">Taille de l'entreprise</label>
+                    <select className="w-full p-3 border border-gray-300 rounded-lg">
+                      <option value="">Sélectionnez...</option>
+                      <option value="1-10">1-10 employés</option>
+                      <option value="11-50">11-50 employés</option>
+                      <option value="51-200">51-200 employés</option>
+                      <option value="200+">200+ employés</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium mb-2">Site web</label>
+                    <input 
+                      type="url" 
+                      className="w-full p-3 border border-gray-300 rounded-lg"
+                      placeholder="https://votre-entreprise.com"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label className="block text-sm font-medium mb-2">Description de l'entreprise</label>
+                  <textarea 
+                    className="w-full p-3 border border-gray-300 rounded-lg h-24"
+                    placeholder="Décrivez votre entreprise, sa mission, ses valeurs..."
+                  ></textarea>
+                </div>
+                <Button className="w-full md:w-auto">
+                  Sauvegarder les informations
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+        )
+      
+      case 'nouvelle-offre':
+        return (
+          <div className="space-y-6">
+            <h2 className="text-2xl font-bold">Nouvelle Offre</h2>
+            <Card>
+              <CardHeader>
+                <CardTitle>Publier une Mission</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="text-center py-8">
+                  <Briefcase className="mx-auto h-12 w-12 text-gray-400 mb-4" />
+                  <p className="text-gray-600 mb-4">Créer une nouvelle mission</p>
+                  <p className="text-sm text-gray-500 mb-6">
+                    Publiez une nouvelle offre d'emploi pour attirer les meilleurs talents
+                  </p>
+                  <Button 
+                    className="bg-primary hover:bg-primary/90"
+                    onClick={() => router.push('/publier')}
+                  >
+                    <Briefcase className="h-4 w-4 mr-2" />
+                    Créer une Mission
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        )
+      
       default:
         return null
     }
@@ -193,7 +303,7 @@ export default function ProfilPageComponent() {
               <div className="flex items-center space-x-3 mb-4">
                 <Building2 className="h-6 w-6 text-blue-600" />
                 <span className="text-lg font-semibold text-gray-800">
-                  {user.job_title ? 'Recruteur' : 'Candidat'}
+                  {isRecruiter ? 'Recruteur' : 'Candidat'}
                 </span>
               </div>
               <div className="h-px bg-gray-200"></div>
