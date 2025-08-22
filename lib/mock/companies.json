@@ -1,0 +1,102 @@
+[
+  {
+    "id": "c1",
+    "name": "Qonto",
+    "logo": "/logos/qonto.png",
+    "description": "Banque en ligne pour entrepreneurs et freelances",
+    "industry": "Fintech",
+    "size": "500-1000 employés",
+    "website": "https://qonto.com",
+    "location": "Paris"
+  },
+  {
+    "id": "c2",
+    "name": "Veepee",
+    "logo": "/logos/veepee.png",
+    "description": "Site de ventes privées en ligne",
+    "industry": "E-commerce",
+    "size": "1000-5000 employés",
+    "website": "https://veepee.com",
+    "location": "Lyon"
+  },
+  {
+    "id": "c3",
+    "name": "Notion",
+    "logo": "/logos/notion.png",
+    "description": "Plateforme de collaboration et de productivité",
+    "industry": "SaaS",
+    "size": "500-1000 employés",
+    "website": "https://notion.so",
+    "location": "Remote EU"
+  },
+  {
+    "id": "c4",
+    "name": "Orange",
+    "logo": "/logos/orange.png",
+    "description": "Opérateur télécoms français",
+    "industry": "Télécommunications",
+    "size": "10000+ employés",
+    "website": "https://orange.com",
+    "location": "Paris"
+  },
+  {
+    "id": "c5",
+    "name": "Havas Creative",
+    "logo": "/logos/havas.png",
+    "description": "Agence de communication créative",
+    "industry": "Marketing",
+    "size": "1000-5000 employés",
+    "website": "https://havas.com",
+    "location": "Marseille"
+  },
+  {
+    "id": "c6",
+    "name": "BlaBlaCar",
+    "logo": "/logos/blablacar.png",
+    "description": "Plateforme de covoiturage",
+    "industry": "Transport",
+    "size": "500-1000 employés",
+    "website": "https://blablacar.com",
+    "location": "Bordeaux"
+  },
+  {
+    "id": "c7",
+    "name": "Ministère de la Culture",
+    "logo": "/logos/ministere-culture.png",
+    "description": "Ministère français de la Culture",
+    "industry": "Service Public",
+    "size": "1000-5000 employés",
+    "website": "https://culture.gouv.fr",
+    "location": "Paris"
+  },
+  {
+    "id": "c8",
+    "name": "OpenClassrooms",
+    "logo": "/logos/openclassrooms.png",
+    "description": "Plateforme de formation en ligne",
+    "industry": "EdTech",
+    "size": "500-1000 employés",
+    "website": "https://openclassrooms.com",
+    "location": "Nantes"
+  },
+  {
+    "id": "c9",
+    "name": "Aircall",
+    "logo": "/logos/aircall.png",
+    "description": "Solution de téléphonie cloud pour entreprises",
+    "industry": "SaaS",
+    "size": "500-1000 employés",
+    "website": "https://aircall.io",
+    "location": "Lille"
+  },
+  {
+    "id": "c10",
+    "name": "Boursorama",
+    "logo": "/logos/boursorama.png",
+    "description": "Banque en ligne française",
+    "industry": "Banque",
+    "size": "1000-5000 employés",
+    "website": "https://boursorama.com",
+    "location": "Toulouse"
+  }
+]

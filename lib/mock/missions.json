@@ -1,0 +1,292 @@
+[
+  {
+    "id": "m1",
+    "title": "Product Designer Senior - App Fintech",
+    "company": "Qonto",
+    "logo": "/logos/qonto.png",
+    "location": "Paris",
+    "workMode": "Hybride",
+    "contract": "CDI",
+    "seniority": "Senior",
+    "description": "Nous recherchons un Product Designer Senior pour rejoindre notre équipe produit et contribuer à la conception de notre application bancaire innovante. Vous travaillerez sur des fonctionnalités complexes et collaborerez étroitement avec les équipes produit et développement.",
+    "responsibilities": [
+      "Concevoir des expériences utilisateur intuitives et accessibles",
+      "Créer des prototypes haute fidélité et des wireframes",
+      "Conduire des tests utilisateurs et des recherches UX",
+      "Collaborer avec les développeurs pour l'implémentation",
+      "Contribuer à l'évolution de notre design system"
+    ],
+    "requirements": [
+      "Minimum 5 ans d'expérience en Product Design",
+      "Maîtrise de Figma et des outils de prototypage",
+      "Expérience dans le secteur fintech ou bancaire",
+      "Capacité à travailler en équipe agile",
+      "Portfolio démontrant des projets complexes"
+    ],
+    "salaryRange": [65000, 85000],
+    "tools": ["Figma", "Sketch", "Principle", "Miro", "Hotjar"],
+    "postedAt": "2024-01-15T10:00:00Z",
+    "tags": ["Fintech", "Mobile", "Design System", "UX Research"]
+  },
+  {
+    "id": "m2",
+    "title": "UX Researcher - E-commerce",
+    "company": "Veepee",
+    "logo": "/logos/veepee.png",
+    "location": "Lyon",
+    "workMode": "Remote",
+    "contract": "CDI",
+    "seniority": "Intermédiaire",
+    "description": "Rejoignez notre équipe UX pour améliorer l'expérience d'achat de millions d'utilisateurs. Vous conduirez des recherches utilisateur et contribuerez à la prise de décision produit basée sur les données.",
+    "responsibilities": [
+      "Planifier et conduire des études utilisateur",
+      "Analyser les données comportementales",
+      "Créer des personas et des journey maps",
+      "Présenter les résultats aux équipes produit",
+      "Collaborer avec les designers et développeurs"
+    ],
+    "requirements": [
+      "3-5 ans d'expérience en UX Research",
+      "Maîtrise des méthodes qualitatives et quantitatives",
+      "Expérience dans l'e-commerce",
+      "Capacité à communiquer clairement les insights",
+      "Maîtrise de l'anglais"
+    ],
+    "salaryRange": [45000, 60000],
+    "tools": ["UserTesting", "Hotjar", "Google Analytics", "Miro", "Figma"],
+    "postedAt": "2024-01-14T14:30:00Z",
+    "tags": ["E-commerce", "UX Research", "Analytics", "User Testing"]
+  },
+  {
+    "id": "m3",
+    "title": "UI Designer Freelance - Startup SaaS",
+    "company": "Notion",
+    "logo": "/logos/notion.png",
+    "location": "Remote EU",
+    "workMode": "Remote",
+    "contract": "Freelance",
+    "seniority": "Senior",
+    "description": "Nous cherchons un UI Designer freelance expérimenté pour nous aider à concevoir une nouvelle interface pour notre plateforme SaaS. Mission de 3-6 mois avec possibilité de prolongation.",
+    "responsibilities": [
+      "Concevoir des interfaces utilisateur modernes et élégantes",
+      "Créer des composants réutilisables",
+      "Assurer la cohérence visuelle de la marque",
+      "Collaborer avec l'équipe produit",
+      "Préparer les assets pour le développement"
+    ],
+    "requirements": [
+      "Minimum 6 ans d'expérience en UI Design",
+      "Portfolio démontrant des projets SaaS",
+      "Maîtrise de Figma et des outils de design",
+      "Expérience en design system",
+      "Disponibilité immédiate"
+    ],
+    "dailyRate": [600, 800],
+    "tools": ["Figma", "Sketch", "Adobe Creative Suite", "Principle"],
+    "postedAt": "2024-01-13T09:15:00Z",
+    "tags": ["SaaS", "UI Design", "Design System", "Remote"]
+  },
+  {
+    "id": "m4",
+    "title": "Design System Architect - Grande Entreprise",
+    "company": "Orange",
+    "logo": "/logos/orange.png",
+    "location": "Paris",
+    "workMode": "Hybride",
+    "contract": "CDI",
+    "seniority": "Senior",
+    "description": "Orange recherche un architecte de design system pour créer et maintenir un système de composants cohérent à travers tous nos produits digitaux. Vous travaillerez avec une équipe de designers et développeurs.",
+    "responsibilities": [
+      "Concevoir et maintenir le design system Orange",
+      "Créer des composants accessibles et réutilisables",
+      "Documenter les composants et leurs utilisations",
+      "Former les équipes à l'utilisation du design system",
+      "Assurer la cohérence visuelle de la marque"
+    ],
+    "requirements": [
+      "Minimum 7 ans d'expérience en design system",
+      "Expertise en accessibilité et WCAG",
+      "Maîtrise de Figma et des outils de documentation",
+      "Expérience en gestion d'équipe",
+      "Connaissance des standards web"
+    ],
+    "salaryRange": [70000, 90000],
+    "tools": ["Figma", "Storybook", "Zeroheight", "Framer", "Sketch"],
+    "postedAt": "2024-01-12T16:45:00Z",
+    "tags": ["Design System", "Accessibility", "Components", "Documentation"]
+  },
+  {
+    "id": "m5",
+    "title": "Motion Designer - Studio Créatif",
+    "company": "Havas Creative",
+    "logo": "/logos/havas.png",
+    "location": "Marseille",
+    "workMode": "Sur site",
+    "contract": "CDD",
+    "seniority": "Intermédiaire",
+    "description": "Rejoignez notre studio créatif pour créer des animations et des expériences interactives pour nos clients. Vous travaillerez sur des projets variés : sites web, applications mobiles, campagnes publicitaires.",
+    "responsibilities": [
+      "Créer des animations et des transitions fluides",
+      "Développer des prototypes interactifs",
+      "Collaborer avec les équipes design et développement",
+      "Optimiser les performances des animations",
+      "Respecter les contraintes techniques"
+    ],
+    "requirements": [
+      "3-5 ans d'expérience en motion design",
+      "Maîtrise d'After Effects et des outils d'animation",
+      "Connaissance des principes d'animation",
+      "Capacité à travailler sous contraintes",
+      "Portfolio démontrant des projets variés"
+    ],
+    "salaryRange": [38000, 48000],
+    "tools": ["After Effects", "Principle", "Framer", "Lottie", "Figma"],
+    "postedAt": "2024-01-11T11:20:00Z",
+    "tags": ["Animation", "Motion Design", "Creative", "Interactive"]
+  },
+  {
+    "id": "m6",
+    "title": "UX/UI Designer - Application Mobile",
+    "company": "BlaBlaCar",
+    "logo": "/logos/blablacar.png",
+    "location": "Bordeaux",
+    "workMode": "Hybride",
+    "contract": "CDI",
+    "seniority": "Intermédiaire",
+    "description": "BlaBlaCar recherche un UX/UI Designer pour améliorer l'expérience utilisateur de notre application mobile. Vous travaillerez sur des fonctionnalités clés comme la réservation de trajets et la gestion de profil.",
+    "responsibilities": [
+      "Concevoir des interfaces mobiles intuitives",
+      "Créer des prototypes et des wireframes",
+      "Conduire des tests utilisateurs",
+      "Collaborer avec les équipes produit et développement",
+      "Contribuer à l'évolution de l'app"
+    ],
+    "requirements": [
+      "4-6 ans d'expérience en UX/UI Design",
+      "Spécialisation en design mobile",
+      "Maîtrise de Figma et des outils de prototypage",
+      "Expérience en tests utilisateurs",
+      "Capacité à travailler en équipe agile"
+    ],
+    "salaryRange": [50000, 65000],
+    "tools": ["Figma", "Sketch", "Principle", "Miro", "Hotjar"],
+    "postedAt": "2024-01-10T13:10:00Z",
+    "tags": ["Mobile", "Transport", "UX/UI", "Prototyping"]
+  },
+  {
+    "id": "m7",
+    "title": "Accessibility Designer - Service Public",
+    "company": "Ministère de la Culture",
+    "logo": "/logos/ministere-culture.png",
+    "location": "Paris",
+    "workMode": "Sur site",
+    "contract": "CDI",
+    "seniority": "Senior",
+    "description": "Le ministère de la Culture recherche un designer spécialisé en accessibilité pour améliorer l'accessibilité numérique de nos services publics. Mission d'intérêt général avec impact sur des millions d'utilisateurs.",
+    "responsibilities": [
+      "Auditer l'accessibilité des services numériques",
+      "Concevoir des interfaces inclusives",
+      "Former les équipes aux bonnes pratiques",
+      "Contribuer à la stratégie d'accessibilité",
+      "Respecter les standards RGAA et WCAG"
+    ],
+    "requirements": [
+      "Minimum 5 ans d'expérience en accessibilité",
+      "Expertise en WCAG 2.1 et RGAA",
+      "Connaissance des technologies d'assistance",
+      "Expérience dans le secteur public",
+      "Sensibilité aux enjeux d'inclusion"
+    ],
+    "salaryRange": [45000, 60000],
+    "tools": ["Figma", "VoiceOver", "NVDA", "Contrast Checker", "axe DevTools"],
+    "postedAt": "2024-01-09T15:30:00Z",
+    "tags": ["Accessibility", "Public Service", "WCAG", "Inclusive Design"]
+  },
+  {
+    "id": "m8",
+    "title": "Product Designer - Plateforme EdTech",
+    "company": "OpenClassrooms",
+    "logo": "/logos/openclassrooms.png",
+    "location": "Nantes",
+    "workMode": "Hybride",
+    "contract": "CDI",
+    "seniority": "Junior",
+    "description": "OpenClassrooms recherche un Product Designer junior pour rejoindre notre équipe produit et contribuer à la conception de notre plateforme d'apprentissage en ligne. Parfait pour un designer débutant passionné par l'éducation.",
+    "responsibilities": [
+      "Concevoir des expériences d'apprentissage intuitives",
+      "Créer des wireframes et des prototypes",
+      "Participer aux tests utilisateurs",
+      "Collaborer avec les équipes produit et développement",
+      "Apprendre et évoluer dans un environnement stimulant"
+    ],
+    "requirements": [
+      "1-3 ans d'expérience en Product Design",
+      "Formation en design ou domaine équivalent",
+      "Maîtrise de Figma et des outils de design",
+      "Intérêt pour l'éducation et l'apprentissage",
+      "Capacité d'apprentissage et d'adaptation"
+    ],
+    "salaryRange": [35000, 45000],
+    "tools": ["Figma", "Sketch", "Miro", "Hotjar", "Notion"],
+    "postedAt": "2024-01-08T10:45:00Z",
+    "tags": ["EdTech", "Learning", "Junior", "Education"]
+  },
+  {
+    "id": "m9",
+    "title": "Design Ops Manager - Scale-up Tech",
+    "company": "Aircall",
+    "logo": "/logos/aircall.png",
+    "location": "Lille",
+    "workMode": "Remote",
+    "contract": "CDI",
+    "seniority": "Senior",
+    "description": "Aircall recherche un Design Ops Manager pour optimiser nos processus de design et gérer notre équipe créative. Vous contribuerez à la croissance de notre équipe design et à l'amélioration de nos workflows.",
+    "responsibilities": [
+      "Optimiser les processus de design et de collaboration",
+      "Gérer les outils et licences de design",
+      "Former et accompagner l'équipe design",
+      "Mettre en place des métriques de performance",
+      "Collaborer avec les équipes produit et développement"
+    ],
+    "requirements": [
+      "Minimum 6 ans d'expérience en design ops",
+      "Expérience en gestion d'équipe design",
+      "Maîtrise des outils de collaboration et de design",
+      "Capacité d'organisation et de planification",
+      "Expérience dans une scale-up ou startup"
+    ],
+    "salaryRange": [60000, 80000],
+    "tools": ["Figma", "Notion", "Linear", "Miro", "Zeroheight"],
+    "postedAt": "2024-01-07T14:20:00Z",
+    "tags": ["Design Ops", "Process", "Team Management", "Scale-up"]
+  },
+  {
+    "id": "m10",
+    "title": "UX Writer - Application Bancaire",
+    "company": "Boursorama",
+    "logo": "/logos/boursorama.png",
+    "location": "Toulouse",
+    "workMode": "Hybride",
+    "contract": "CDI",
+    "seniority": "Intermédiaire",
+    "description": "Boursorama recherche un UX Writer pour améliorer la clarté et l'accessibilité de nos interfaces bancaires. Vous créerez du contenu qui guide et rassure nos utilisateurs dans leurs opérations financières.",
+    "responsibilities": [
+      "Rédiger des microcopy clairs et rassurants",
+      "Créer des guides utilisateur et des messages d'aide",
+      "Collaborer avec les designers et développeurs",
+      "Assurer la cohérence du ton de voix",
+      "Participer aux tests utilisateurs"
+    ],
+    "requirements": [
+      "3-5 ans d'expérience en UX Writing",
+      "Expérience dans le secteur bancaire ou fintech",
+      "Excellente maîtrise du français",
+      "Capacité à simplifier des concepts complexes",
+      "Sensibilité aux enjeux de confiance et de sécurité"
+    ],
+    "salaryRange": [40000, 55000],
+    "tools": ["Figma", "Notion", "Miro", "Contentful", "Lokalise"],
+    "postedAt": "2024-01-06T16:15:00Z",
+    "tags": ["UX Writing", "Banking", "Microcopy", "Content Strategy"]
+  }
+]

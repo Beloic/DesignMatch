@@ -1,0 +1,41 @@
+{
+  "name": "design-match",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.2",
+    "@radix-ui/react-avatar": "^1.1.10",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@supabase/supabase-js": "^2.56.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "lucide-react": "^0.294.0",
+    "next": "14.0.4",
+    "postcss": "^8",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.48.2",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss": "^3.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7"
+  }
+}

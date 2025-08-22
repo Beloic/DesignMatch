@@ -1,0 +1,254 @@
+[
+  {
+    "id": "t1",
+    "name": "Sophie Martin",
+    "title": "Product Designer Senior",
+    "seniority": "Senior",
+    "skills": ["UX Research", "Prototypage", "Design System", "Recherche utilisateur", "Tests utilisateurs", "Workshop Design Sprint"],
+    "tools": ["Figma", "Sketch", "Adobe XD", "Principle", "Miro", "Notion"],
+    "location": "Paris",
+    "workMode": ["Remote", "Hybride"],
+    "languages": ["FR", "EN"],
+    "availability": "Immédiate",
+    "dailyRate": 650,
+    "bio": "Product Designer passionnée avec 8 ans d'expérience dans la conception d'expériences utilisateur centrées sur l'humain. Spécialisée dans la conception de produits digitaux complexes et l'élaboration de design systems évolutifs.",
+    "portfolioUrl": "https://sophie-martin.design",
+    "linkedin": "linkedin.com/in/sophie-martin",
+    "website": "sophie-martin.design",
+    "companyHistory": [
+      {"company": "Airbnb", "role": "Senior Product Designer", "from": "2021", "to": "2023"},
+      {"company": "Spotify", "role": "Product Designer", "from": "2019", "to": "2021"},
+      {"company": "Orange", "role": "UX Designer", "from": "2017", "to": "2019"}
+    ],
+    "caseStudies": [
+      {"title": "Redesign de l'app mobile Airbnb", "summary": "Amélioration de l'expérience de réservation et de la découverte", "tags": ["Mobile", "E-commerce", "UX Research"]},
+      {"title": "Design System Spotify", "summary": "Création d'un système de composants cohérent pour toutes les plateformes", "tags": ["Design System", "Components", "Accessibility"]}
+    ],
+    "featured": true,
+    "avatar": "/avatars/sophie-martin.jpg"
+  },
+  {
+    "id": "t2",
+    "name": "Thomas Dubois",
+    "title": "UX Researcher Lead",
+    "seniority": "Lead",
+    "skills": ["UX Research", "Tests utilisateurs", "Interviews", "Analytics", "Personas", "Journey Mapping"],
+    "tools": ["UserTesting", "Hotjar", "Google Analytics", "Miro", "Figma", "Notion"],
+    "location": "Lyon",
+    "workMode": ["Remote", "Hybride"],
+    "languages": ["FR", "EN", "ES"],
+    "availability": "Sous 2 semaines",
+    "dailyRate": 750,
+    "bio": "UX Researcher expérimenté avec une expertise dans la recherche qualitative et quantitative. Passionné par la compréhension des besoins utilisateurs et l'amélioration continue des produits.",
+    "portfolioUrl": "https://thomas-dubois-ux.com",
+    "linkedin": "linkedin.com/in/thomas-dubois-ux",
+    "companyHistory": [
+      {"company": "Google", "role": "UX Research Lead", "from": "2020", "to": "2023"},
+      {"company": "Microsoft", "role": "Senior UX Researcher", "from": "2018", "to": "2020"}
+    ],
+    "caseStudies": [
+      {"title": "Recherche utilisateur Google Maps", "summary": "Étude des comportements de navigation et de planification", "tags": ["Navigation", "Mobile", "UX Research"]}
+    ],
+    "featured": true,
+    "avatar": "/avatars/thomas-dubois.jpg"
+  },
+  {
+    "id": "t3",
+    "name": "Emma Leroy",
+    "title": "UI Designer Junior",
+    "seniority": "Junior",
+    "skills": ["Interface Design", "Prototypage", "Design System", "Illustration", "Iconographie"],
+    "tools": ["Figma", "Adobe Illustrator", "Adobe Photoshop", "Principle"],
+    "location": "Marseille",
+    "workMode": ["Sur site", "Hybride"],
+    "languages": ["FR", "EN"],
+    "availability": "Immédiate",
+    "salaryRange": [35000, 42000],
+    "bio": "UI Designer créative et passionnée, récemment diplômée en Design Numérique. Recherche une opportunité pour développer mes compétences dans un environnement stimulant.",
+    "portfolioUrl": "https://emma-leroy-portfolio.com",
+    "linkedin": "linkedin.com/in/emma-leroy-ui",
+    "companyHistory": [
+      {"company": "Stage - Agence Digital", "role": "UI Designer Stagiaire", "from": "2023", "to": "2023"}
+    ],
+    "caseStudies": [
+      {"title": "App de fitness mobile", "summary": "Conception d'une interface moderne et intuitive pour une app de sport", "tags": ["Mobile", "Fitness", "UI Design"]}
+    ],
+    "featured": false,
+    "avatar": "/avatars/emma-leroy.jpg"
+  },
+  {
+    "id": "t4",
+    "name": "Lucas Moreau",
+    "title": "Design System Architect",
+    "seniority": "Senior",
+    "skills": ["Design System", "Components", "Accessibility", "Documentation", "Design Tokens", "Figma Plugins"],
+    "tools": ["Figma", "Storybook", "Zeroheight", "Framer", "Sketch"],
+    "location": "Remote EU",
+    "workMode": ["Remote"],
+    "languages": ["FR", "EN", "DE"],
+    "availability": "Sous 3 semaines",
+    "dailyRate": 700,
+    "bio": "Spécialiste des Design Systems avec 6 ans d'expérience. Expert dans la création de systèmes de composants évolutifs et accessibles pour des entreprises de toutes tailles.",
+    "portfolioUrl": "https://lucas-moreau-systems.com",
+    "linkedin": "linkedin.com/in/lucas-moreau-systems",
+    "companyHistory": [
+      {"company": "Shopify", "role": "Design System Architect", "from": "2021", "to": "2023"},
+      {"company": "Booking.com", "role": "Senior Designer", "from": "2019", "to": "2021"}
+    ],
+    "caseStudies": [
+      {"title": "Polaris Design System", "summary": "Refonte complète du système de composants Shopify", "tags": ["Design System", "Components", "Accessibility"]}
+    ],
+    "featured": true,
+    "avatar": "/avatars/lucas-moreau.jpg"
+  },
+  {
+    "id": "t5",
+    "name": "Camille Rousseau",
+    "title": "Motion Designer",
+    "seniority": "Intermédiaire",
+    "skills": ["Animation", "Motion Design", "Prototypage", "Storytelling", "Branding"],
+    "tools": ["After Effects", "Principle", "Framer", "Lottie", "Figma"],
+    "location": "Bordeaux",
+    "workMode": ["Remote", "Hybride"],
+    "languages": ["FR", "EN"],
+    "availability": "Immédiate",
+    "dailyRate": 450,
+    "bio": "Motion Designer créatif avec 4 ans d'expérience dans l'animation digitale et la conception d'expériences interactives. Passionné par la narration visuelle et l'engagement utilisateur.",
+    "portfolioUrl": "https://camille-rousseau-motion.com",
+    "linkedin": "linkedin.com/in/camille-rousseau-motion",
+    "companyHistory": [
+      {"company": "Ubisoft", "role": "Motion Designer", "from": "2021", "to": "2023"},
+      {"company": "Agence Digital", "role": "Motion Designer", "from": "2020", "to": "2021"}
+    ],
+    "caseStudies": [
+      {"title": "Animations Assassin's Creed", "summary": "Création d'animations pour l'interface du jeu", "tags": ["Gaming", "Animation", "UI"]}
+    ],
+    "featured": false,
+    "avatar": "/avatars/camille-rousseau.jpg"
+  },
+  {
+    "id": "t6",
+    "name": "Antoine Girard",
+    "title": "UX/UI Designer Freelance",
+    "seniority": "Senior",
+    "skills": ["UX Design", "UI Design", "Prototypage", "User Testing", "Workshop", "Design Thinking"],
+    "tools": ["Figma", "Sketch", "Adobe XD", "Miro", "Hotjar", "Notion"],
+    "location": "Nantes",
+    "workMode": ["Remote", "Hybride"],
+    "languages": ["FR", "EN"],
+    "availability": "Immédiate",
+    "dailyRate": 600,
+    "bio": "UX/UI Designer freelance avec 7 ans d'expérience dans la conception d'applications web et mobiles. Spécialisé dans les startups et PME du secteur tech.",
+    "portfolioUrl": "https://antoine-girard-design.com",
+    "linkedin": "linkedin.com/in/antoine-girard-design",
+    "companyHistory": [
+      {"company": "Freelance", "role": "UX/UI Designer", "from": "2020", "to": "2023"},
+      {"company": "Startup Tech", "role": "Lead Designer", "from": "2018", "to": "2020"}
+    ],
+    "caseStudies": [
+      {"title": "App de gestion de projets", "summary": "Conception complète d'une application SaaS B2B", "tags": ["SaaS", "B2B", "Product Design"]}
+    ],
+    "featured": false,
+    "avatar": "/avatars/antoine-girard.jpg"
+  },
+  {
+    "id": "t7",
+    "name": "Julie Bernard",
+    "title": "Accessibility Designer",
+    "seniority": "Intermédiaire",
+    "skills": ["Accessibility", "WCAG", "UX Design", "User Testing", "Inclusive Design"],
+    "tools": ["Figma", "VoiceOver", "NVDA", "Contrast Checker", "axe DevTools"],
+    "location": "Toulouse",
+    "workMode": ["Remote", "Hybride"],
+    "languages": ["FR", "EN"],
+    "availability": "Sous 2 semaines",
+    "dailyRate": 500,
+    "bio": "Designer spécialisée dans l'accessibilité numérique avec 3 ans d'expérience. Passionnée par la création d'expériences inclusives pour tous les utilisateurs.",
+    "portfolioUrl": "https://julie-bernard-accessibility.com",
+    "linkedin": "linkedin.com/in/julie-bernard-accessibility",
+    "companyHistory": [
+      {"company": "Orange", "role": "Accessibility Designer", "from": "2021", "to": "2023"},
+      {"company": "Agence Public", "role": "UX Designer", "from": "2020", "to": "2021"}
+    ],
+    "caseStudies": [
+      {"title": "Site web accessible Orange", "summary": "Mise en conformité WCAG 2.1 AA du site principal", "tags": ["Accessibility", "WCAG", "Public"]}
+    ],
+    "featured": false,
+    "avatar": "/avatars/julie-bernard.jpg"
+  },
+  {
+    "id": "t8",
+    "name": "Maxime Durand",
+    "title": "Product Designer",
+    "seniority": "Intermédiaire",
+    "skills": ["Product Design", "UX Research", "Prototypage", "Data Analysis", "A/B Testing"],
+    "tools": ["Figma", "Sketch", "Mixpanel", "Hotjar", "Miro", "Notion"],
+    "location": "Lille",
+    "workMode": ["Hybride", "Sur site"],
+    "languages": ["FR", "EN"],
+    "availability": "Immédiate",
+    "salaryRange": [45000, 55000],
+    "bio": "Product Designer avec 4 ans d'expérience dans la conception de produits digitaux. Passionné par l'utilisation des données pour améliorer l'expérience utilisateur.",
+    "portfolioUrl": "https://maxime-durand-product.com",
+    "linkedin": "linkedin.com/in/maxime-durand-product",
+    "companyHistory": [
+      {"company": "Decathlon", "role": "Product Designer", "from": "2021", "to": "2023"},
+      {"company": "Startup E-commerce", "role": "UX Designer", "from": "2020", "to": "2021"}
+    ],
+    "caseStudies": [
+      {"title": "App Decathlon", "summary": "Amélioration de l'expérience d'achat et de suivi d'activité", "tags": ["E-commerce", "Sports", "Mobile"]}
+    ],
+    "featured": false,
+    "avatar": "/avatars/maxime-durand.jpg"
+  },
+  {
+    "id": "t9",
+    "name": "Sarah Lefevre",
+    "title": "Design Ops Manager",
+    "seniority": "Senior",
+    "skills": ["Design Ops", "Process Design", "Team Management", "Design System", "Tooling", "Workflow"],
+    "tools": ["Figma", "Notion", "Linear", "Miro", "Zeroheight", "Abstract"],
+    "location": "Paris",
+    "workMode": ["Hybride", "Sur site"],
+    "languages": ["FR", "EN"],
+    "availability": "Sous 4 semaines",
+    "salaryRange": [65000, 80000],
+    "bio": "Design Ops Manager avec 8 ans d'expérience dans l'optimisation des processus de design et la gestion d'équipes créatives. Expert en mise en place de workflows efficaces.",
+    "portfolioUrl": "https://sarah-lefevre-ops.com",
+    "linkedin": "linkedin.com/in/sarah-lefevre-ops",
+    "companyHistory": [
+      {"company": "LVMH", "role": "Design Ops Manager", "from": "2020", "to": "2023"},
+      {"company": "L'Oréal", "role": "Senior Designer", "from": "2018", "to": "2020"}
+    ],
+    "caseStudies": [
+      {"title": "Transformation Design Ops LVMH", "summary": "Mise en place d'un système de design ops pour 20+ marques", "tags": ["Design Ops", "Luxury", "Process"]}
+    ],
+    "featured": true,
+    "avatar": "/avatars/sarah-lefevre.jpg"
+  },
+  {
+    "id": "t10",
+    "name": "Pierre Dubois",
+    "title": "UX Writer",
+    "seniority": "Junior",
+    "skills": ["UX Writing", "Content Strategy", "Microcopy", "User Research", "Localization"],
+    "tools": ["Figma", "Notion", "Miro", "Contentful", "Lokalise"],
+    "location": "Remote EU",
+    "workMode": ["Remote"],
+    "languages": ["FR", "EN", "ES", "DE"],
+    "availability": "Immédiate",
+    "dailyRate": 350,
+    "bio": "UX Writer passionné par la création de contenu qui améliore l'expérience utilisateur. Spécialisé dans la localisation et l'adaptation culturelle des interfaces.",
+    "portfolioUrl": "https://pierre-dubois-uxwriter.com",
+    "linkedin": "linkedin.com/in/pierre-dubois-uxwriter",
+    "companyHistory": [
+      {"company": "Freelance", "role": "UX Writer", "from": "2022", "to": "2023"},
+      {"company": "Stage - Agence", "role": "Content Designer Stagiaire", "from": "2022", "to": "2022"}
+    ],
+    "caseStudies": [
+      {"title": "Microcopy pour app bancaire", "summary": "Création de microcopy clair et rassurant pour une application financière", "tags": ["Finance", "Microcopy", "Trust"]}
+    ],
+    "featured": false,
+    "avatar": "/avatars/pierre-dubois.jpg"
+  }
+]

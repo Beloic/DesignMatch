@@ -1,0 +1,122 @@
+[
+  {
+    "id": "city1",
+    "name": "Paris",
+    "country": "France",
+    "region": "Île-de-France"
+  },
+  {
+    "id": "city2",
+    "name": "Lyon",
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "id": "city3",
+    "name": "Marseille",
+    "country": "France",
+    "region": "Provence-Alpes-Côte d'Azur"
+  },
+  {
+    "id": "city4",
+    "name": "Bordeaux",
+    "country": "France",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "id": "city5",
+    "name": "Nantes",
+    "country": "France",
+    "region": "Pays de la Loire"
+  },
+  {
+    "id": "city6",
+    "name": "Toulouse",
+    "country": "France",
+    "region": "Occitanie"
+  },
+  {
+    "id": "city7",
+    "name": "Lille",
+    "country": "France",
+    "region": "Hauts-de-France"
+  },
+  {
+    "id": "city8",
+    "name": "Strasbourg",
+    "country": "France",
+    "region": "Grand Est"
+  },
+  {
+    "id": "city9",
+    "name": "Nice",
+    "country": "France",
+    "region": "Provence-Alpes-Côte d'Azur"
+  },
+  {
+    "id": "city10",
+    "name": "Rennes",
+    "country": "France",
+    "region": "Bretagne"
+  },
+  {
+    "id": "city11",
+    "name": "Grenoble",
+    "country": "France",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "id": "city12",
+    "name": "Montpellier",
+    "country": "France",
+    "region": "Occitanie"
+  },
+  {
+    "id": "city13",
+    "name": "Berlin",
+    "country": "Allemagne",
+    "region": "Berlin"
+  },
+  {
+    "id": "city14",
+    "name": "Amsterdam",
+    "country": "Pays-Bas",
+    "region": "Hollande-Septentrionale"
+  },
+  {
+    "id": "city15",
+    "name": "Bruxelles",
+    "country": "Belgique",
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "id": "city16",
+    "name": "Barcelona",
+    "country": "Espagne",
+    "region": "Catalogne"
+  },
+  {
+    "id": "city17",
+    "name": "Milan",
+    "country": "Italie",
+    "region": "Lombardie"
+  },
+  {
+    "id": "city18",
+    "name": "Vienne",
+    "country": "Autriche",
+    "region": "Vienne"
+  },
+  {
+    "id": "city19",
+    "name": "Zurich",
+    "country": "Suisse",
+    "region": "Zurich"
+  },
+  {
+    "id": "city20",
+    "name": "Stockholm",
+    "country": "Suède",
+    "region": "Stockholm"
+  }
+]
