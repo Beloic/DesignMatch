@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useAuth } from '@/hooks/useAuth'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -27,7 +27,7 @@ export default function DashboardPageComponent() {
   const isRecruiter = user?.job_title || user?.company
   
   // Redirection automatique vers le bon dashboard
-  React.useEffect(() => {
+  useEffect(() => {
     if (user) {
       if (isRecruiter) {
         router.push('/dashboard/recruteur')
