@@ -60,7 +60,7 @@ export function AppNavbar() {
                 {/* Menu utilisateur */}
                 <div className="flex items-center space-x-2">
                   <Button variant="ghost" size="icon" asChild>
-                    <Link href="/profil" aria-label="Profil">
+                    <Link href="/dashboard" aria-label="Dashboard">
                       <Avatar className="h-8 w-8">
                         <AvatarImage src={user.avatar_url} alt={user.full_name} />
                         <AvatarFallback>{user.full_name.charAt(0)}</AvatarFallback>
@@ -118,7 +118,7 @@ export function AppNavbar() {
               ) : (
                 <>
                   <Button variant="ghost" asChild className="justify-start">
-                    <Link href="/profil">Mon profil</Link>
+                    <Link href="/dashboard">Mon dashboard</Link>
                   </Button>
                   <Button variant="ghost" asChild className="justify-start" onClick={signOut}>
                     Se déconnecter

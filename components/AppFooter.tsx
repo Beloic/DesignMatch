@@ -83,7 +83,7 @@ export function AppFooter() {
                 </Link>
               </li>
               <li>
-                <Link href="/profil/talent" className="text-muted-foreground hover:text-primary transition-colors">
+                <Link href="/dashboard/talent" className="text-muted-foreground hover:text-primary transition-colors">
                   Créer mon profil
                 </Link>
               </li>

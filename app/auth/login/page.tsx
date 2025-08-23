@@ -38,7 +38,7 @@ export default function LoginPage() {
           description: 'Bienvenue sur DesignMatch !',
           type: 'success'
         })
-        router.push('/')
+        router.push('/dashboard')
       }
     } catch (error) {
       addToast({

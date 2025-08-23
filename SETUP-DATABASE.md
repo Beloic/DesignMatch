@@ -106,3 +106,4 @@ Si vous rencontrez des problèmes :
 ---
 
 **Note** : Ce script configure une base de données complète et sécurisée. Assurez-vous de tester l'application après la configuration.
+

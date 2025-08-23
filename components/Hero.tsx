@@ -78,7 +78,7 @@ export function Hero() {
             </Button>
             
             <Button asChild variant="outline" size="lg" className="h-12 px-8 text-lg">
-              <Link href="/profil/talent" className="flex items-center space-x-2">
+              <Link href="/dashboard/talent" className="flex items-center space-x-2">
                 <span>{t('home.hero.ctaTalent', language)}</span>
                 <ArrowRight className="h-5 w-5" />
               </Link>

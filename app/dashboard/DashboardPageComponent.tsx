@@ -14,7 +14,7 @@ import {
 } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 
-export default function ProfilPageComponent() {
+export default function DashboardPageComponent() {
   const { user, signOut } = useAuth()
   const router = useRouter()
   const [activeSection, setActiveSection] = useState('profil')
@@ -25,6 +25,17 @@ export default function ProfilPageComponent() {
   }
 
   const isRecruiter = user?.job_title || user?.company
+  
+  // Redirection automatique vers le bon dashboard
+  React.useEffect(() => {
+    if (user) {
+      if (isRecruiter) {
+        router.push('/dashboard/recruteur')
+      } else {
+        router.push('/dashboard/talent')
+      }
+    }
+  }, [user, isRecruiter, router])
   
   const menuItems = isRecruiter ? [
     {
